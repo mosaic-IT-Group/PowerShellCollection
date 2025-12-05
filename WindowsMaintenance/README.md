@@ -57,4 +57,4 @@ Register-ScheduledTask -TaskName "Weekly Cleanup" -Action $Action -Trigger $Trig
 
 ## License
 
-Internal use only - Mosaic IT Group
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
