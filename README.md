@@ -19,6 +19,25 @@ Automated system maintenance scripts for Windows Server and Windows 10/11 enviro
 | [Networking](WindowsMaintenance/07-Networking/) | DHCP, DNS, share permissions, connectivity testing |
 | [Monitoring & Reporting](WindowsMaintenance/08-Monitoring-Reporting/) | Disk space, resources, failed logins, email reports |
 
+### [CloudMaintenance](CloudMaintenance/)
+
+Cloud infrastructure maintenance and automation scripts.
+
+| Platform | Description |
+|----------|-------------|
+| [Azure](CloudMaintenance/Azure/) | Microsoft Azure maintenance scripts |
+
+**Azure Categories:**
+| Category | Description |
+|----------|-------------|
+| [Resource Management](CloudMaintenance/Azure/01-Resource-Management/) | Unused resources, snapshots, tags, VM scheduling |
+| [Cost Management](CloudMaintenance/Azure/02-Cost-Management/) | Cost reports, budgets, reserved instances, right-sizing |
+| [Security & Compliance](CloudMaintenance/Azure/03-Security-Compliance/) | Security Center, Key Vault, storage security, policies |
+| [Backup & Recovery](CloudMaintenance/Azure/04-Backup-Recovery/) | Backup status, on-demand backups, recovery points |
+| [Monitoring & Alerts](CloudMaintenance/Azure/05-Monitoring-Alerts/) | Resource health, alerts, metrics, activity logs |
+| [Identity & Access](CloudMaintenance/Azure/06-Identity-Access/) | RBAC, service principals, managed identities, guests |
+| [Networking](CloudMaintenance/Azure/07-Networking/) | NSG rules, public IPs, VNet peerings, connectivity |
+
 ## Requirements
 
 - PowerShell 5.1 or later
