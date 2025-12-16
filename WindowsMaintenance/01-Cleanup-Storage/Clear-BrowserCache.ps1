@@ -14,10 +14,6 @@ foreach ($User in $UserProfiles) {
     $CachePaths = @(
         # Chrome
         "$($User.FullName)\AppData\Local\Google\Chrome\User Data\Default\Cache",
-        # Edge
-        "$($User.FullName)\AppData\Local\Microsoft\Edge\User Data\Default\Cache",
-        # Firefox
-        "$($User.FullName)\AppData\Local\Mozilla\Firefox\Profiles\*\cache2"
         # Opera
         "$($User.FullName)\AppData\Local\Mozilla\Opera\Profiles\*\cache2"
     )
