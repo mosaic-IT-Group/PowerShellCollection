@@ -18,6 +18,8 @@ foreach ($User in $UserProfiles) {
         "$($User.FullName)\AppData\Local\Microsoft\Edge\User Data\Default\Cache",
         # Firefox
         "$($User.FullName)\AppData\Local\Mozilla\Firefox\Profiles\*\cache2"
+        # Opera
+        "$($User.FullName)\AppData\Local\Mozilla\Opera\Profiles\*\cache2"
     )
 
     foreach ($Path in $CachePaths) {
