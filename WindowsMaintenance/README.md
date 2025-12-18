@@ -14,6 +14,7 @@ A collection of PowerShell scripts for automating common Windows system maintena
 | [06-ActiveDirectory](06-ActiveDirectory/) | Stale accounts, Group Policy, replication, DNS scavenging |
 | [07-Networking](07-Networking/) | DHCP monitoring, DNS cache, share permissions |
 | [08-Monitoring-Reporting](08-Monitoring-Reporting/) | Disk space, resource usage, failed logins, email reports |
+| [09-Onboarding-Offboarding](09-Onboarding-Offboarding/) | User provisioning, account deprovisioning, audit trails |
 
 ## Requirements
 
