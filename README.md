@@ -18,6 +18,7 @@ Automated system maintenance scripts for Windows Server and Windows 10/11 enviro
 | [Active Directory](WindowsMaintenance/06-ActiveDirectory/) | Stale accounts, Group Policy, replication, DNS scavenging |
 | [Networking](WindowsMaintenance/07-Networking/) | DHCP, DNS, share permissions, connectivity testing |
 | [Monitoring & Reporting](WindowsMaintenance/08-Monitoring-Reporting/) | Disk space, resources, failed logins, email reports |
+| [Onboarding & Offboarding](WindowsMaintenance/09-Onboarding-Offboarding/) | User provisioning, account deprovisioning, audit trails |
 
 ### [CloudMaintenance](CloudMaintenance/)
 
